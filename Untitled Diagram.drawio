@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-07-19T17:51:45.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="tuL8KR8eQ4CMdYjjc460" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T00:00:16.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="tth65njfzjGjGyIzZOTt" version="14.9.0" type="github">
   <diagram id="LwGWcUwIZz-kHJYDNQQQ" name="Page-1">
-    <mxGraphModel dx="1328" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="1107" dy="456" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NihVeoa68JLCoDh2yQRc-1" value="Elementos de BPM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="197" y="84" width="112" height="18" as="geometry" />
+          <mxGeometry x="90" y="34" width="112" height="18" as="geometry" />
         </mxCell>
         <mxCell id="NihVeoa68JLCoDh2yQRc-2" value="Actividades o &#xa;Tareas" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" parent="1" vertex="1">
-          <mxGeometry x="170" y="154" width="120" height="80" as="geometry" />
+          <mxGeometry x="48" y="136" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NihVeoa68JLCoDh2yQRc-3" value="Eventos" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" parent="1" vertex="1">
-          <mxGeometry x="432" y="151" width="50" height="50" as="geometry" />
+          <mxGeometry x="433" y="151" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NihVeoa68JLCoDh2yQRc-5" value="Gateways" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" parent="1" vertex="1">
-          <mxGeometry x="340" y="151" width="50" height="50" as="geometry" />
+        <mxCell id="NihVeoa68JLCoDh2yQRc-5" value="XOR Gateway" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" parent="1" vertex="1">
+          <mxGeometry x="223" y="151" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NihVeoa68JLCoDh2yQRc-6" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -119,6 +119,15 @@
           <mxGeometry x="-0.4" y="-4" relative="1" as="geometry">
             <mxPoint x="32" y="5" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hpbx9H6NkIc-GcVU2CrY-6" value="AND Gateway" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="1">
+          <mxGeometry x="328" y="151" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hpbx9H6NkIc-GcVU2CrY-7" value="OR Gateway" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=end;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="273" y="65" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hpbx9H6NkIc-GcVU2CrY-9" value="ARTEFECTOS: Representan la DATA" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="124" y="631" width="212" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
